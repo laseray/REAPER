@@ -18,7 +18,7 @@ feedback is encouraged via github issues, but be gentle!
 Include the following in your `project.clj` dependencies:
 
 ```clojure
-[reaper "0.1.0-SNAPSHOT"]
+[reaper "0.1.1-SNAPSHOT"]
 ```
 
 Now lets create a namespace to perform a very small summarization task.
@@ -55,7 +55,7 @@ out of your line-seq.
 
 ```bash
 lein clean && lein uberjar
-java -jar target/sample-0.1.0-SNAPSHOT-standalone.jar 50
+java -jar target/sample-0.1.1-SNAPSHOT-standalone.jar 50
 Automatic summarization is the process of reducing a text document with a computer program in order to create a summary that retains the most important points of the original document.
 As the problem of information overload has grown, and as the quantity of data has increased, so has interest in automatic summarization.
 Technologies that can make a coherent summary take into account variables such as length, writing style and syntax.
