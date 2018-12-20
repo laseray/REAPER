@@ -13,6 +13,11 @@ though the library is by no means limited to such, and it contains algorithms no
 This is my first attempt at maintaining an open source library that I actually expect others use, so
 feedback is encouraged via github issues, but be gentle!
 
+Details on the theory behind this implemntatiion are found in the paper: Cody Rioux, Sadid A. Hasan, and
+Yllias Chali. 2014. Fear the reaper: A system for automatic multi-document summarization with reinforcement
+learning. In Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP),
+October 25-29, 2014, Doha, Qatar., pages 681–690.
+
 ## Using REAPER
 
 Include the following in your `project.clj` dependencies:
