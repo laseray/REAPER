@@ -4,7 +4,7 @@
   :url "https://github.com/codyrioux/reaper"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.9.0"]
+  :dependencies [[org.clojure/clojure "1.10.0"]
                  [org.clojure/core.async "0.4.490"]
                  [org.clojure/core.memoize "0.7.1"]
                  [org.clojure/math.combinatorics "0.1.4"]                 
